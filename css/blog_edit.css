@@ -1,0 +1,108 @@
+.clanek-main{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+.bg-titul{
+    background: linear-gradient(0deg, rgba(9, 138, 218, 0.91) 0%, rgb(12 154 242 / 0%) 100%);
+    position: relative;
+    left:0;
+    bottom: 15%;
+}
+.title{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    height: 40px;
+    position: relative;
+    left: 3%;
+    top: 2.5rem;
+}
+
+.obrazek{
+    width: 100%;
+    height: 25rem;
+    width:21rem;
+    max-width: 24rem;
+    object-fit: cover;
+
+}
+.text{
+    padding: 15px;
+    color: #282828;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.obsah{
+    font-size:1rem;
+    text-align: center;
+    position: relative;
+    left: 27%;
+    width: 45%;
+    word-break: break-all;
+}
+.nazev-clanku{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog_background_image{
+    width: 50%;
+    height: 25rem;
+    max-width: 24rem;
+    object-fit: cover;
+
+}
+.blog_background_image_view{
+    width: 50%;
+    height: 25rem;
+    object-fit: cover;
+
+}
+.blog_nadpis{
+    position: relative;
+    bottom: 50%;
+}
+.blog_views{
+    position: relative;
+    top: 7.5rem;
+    left: 12.5%;
+    font-size: 14px;
+    max-width: 50rem;
+}
+.view_main{
+    color: white;
+    font-size: 12px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 8px;
+    padding:7px;
+
+}
+.tagy{
+    position: relative;
+    bottom: 20%;
+    left: 12px;
+    font-size: 14px;
+}
+#search-bar {
+    height: 46px;
+    border-radius: 48px;
+    border: 0.5px solid lightgrey;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 10px;
+}
+#search-btn {
+    height: 46px;
+    border-top-right-radius: 48px;
+    border-bottom-right-radius: 48px;
+    padding: 15px;
+    font-size: 1.1em;
+    position: absolute;
+    right: 15px;
+    border-left: 0.5px solid lightgrey;
+}

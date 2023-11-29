@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#particles-js {
+    height: 100%;
+    position: absolute;
+    /* background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);*/
+    background-color: #4c4c4c;
+}

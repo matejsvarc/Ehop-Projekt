@@ -1,0 +1,61 @@
+*{
+    z-index: 2;
+}
+body{
+    overflow: hidden;
+}
+.logo{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-content: start;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    z-index: 4;
+    font-family:"JetBrains Mono", monospace ;
+    font-size: 20px;
+    height: 100px;
+
+}
+.rozcesti-main{
+    position: relative;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prihlaseni-main{
+    display: flex;
+    justify-content: flex-end;
+    align-content: end;
+    position: relative;
+    bottom: 40%;
+    right: 1%;
+}
+.prihlaseni{
+color: white;
+}
+
+.logxd{
+    z-index: 3;
+}
+.index_button{
+    height: 400px;
+    width: 400px;
+    transition: transform 0.5s ease;
+}
+.index_button:hover{
+    transform: scale(1.2);
+}
+.logout{
+    position: relative;
+    bottom: 43%;
+    color:white;
+    left: 95%;
+    transition: transform 0.2s ease;
+}
+.logout:hover{
+    transform: scale(1.01);
+    color: #cdcdcd;
+}
